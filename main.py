@@ -13,7 +13,7 @@ import streamlit_lottie
 from streamlit_lottie import st_lottie
 import requests
 
-model = joblib.load('rf.h5')
+model = joblib.load('Training/Models/rf.h5')
 # Function to load Lottie animation from URL
 def load_lottie_url(url: str):
     response = requests.get(url)
