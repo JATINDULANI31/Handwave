@@ -47,13 +47,13 @@ This project aims to detect sign language gestures using the <b>MediaPipe</b> li
 3. The detected sign will be displayed on the screen, along with the corresponding text.
 
 ## Data Collection 
-1. Collect a dataset of hand gestures in sign language. Each sample should include hand landmarks (extracted using MediaPipe) and the corresponding label (text).<br>
+1. Collected a dataset of hand gestures in sign language of around 70k samples. Each sample include hand landmarks (extracted using MediaPipe) and there corresponding class(letter).<br>
 (For references u can see the <b>Data Collect</b> folder.)
 
 ## Training the ML Model
-1. Preprocess the hand landmarks (normalize, flatten, etc.).
-2. Train an RF classifier using scikit-learn.
-3. Save the trained model for inference.<br>
+1. Preprocessed the hand landmarks (normalize, flatten, etc.).
+2. Trained an RF classifier using scikit-learn.
+3. Saved the trained model for inference.<br>
 (For references u can prefer for the <b>sign_detection.ipynb</b> file in the Training Folder.)
 
 ## Acknowledgments
