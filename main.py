@@ -303,10 +303,10 @@ elif app_mode == 'Sign Language to Text':
                             data_aux.append(x - min(x_))
                             data_aux.append(y - min(y_))
 
-                        x1 = int(min(x_) * W) - 20
-                        y1 = int(min(y_) * H) - 20
-                        x2 = int(max(x_) * W) + 20
-                        y2 = int(max(y_) * H) + 20
+                        x1 = int(min(x_) * W) - 25
+                        y1 = int(min(y_) * H) - 25
+                        x2 = int(max(x_) * W) + 25
+                        y2 = int(max(y_) * H) + 25
                         
                         prediction = model.predict([np.asarray(data_aux)])
                         # Draw rectangle around the hand
