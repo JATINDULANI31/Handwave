@@ -349,8 +349,6 @@ elif app_mode == 'Sign Language to Text':
                 if not st.session_state['use_webcam']:
                     is_running = False
 
-                if cv2.waitKey(25) & 0xFF == 27:  # Press 'ESC' to exit
-                    break
         cap.release()
         cv2.destroyAllWindows()
 
