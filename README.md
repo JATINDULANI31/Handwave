@@ -14,6 +14,7 @@ This project aims to detect sign language gestures using the <b>MediaPipe</b> li
 - Preprocessing of hand landmarks using MediaPipe.
 - Classification of hand gestures using the trained RF model.
 - Text output corresponding to the detected sign.
+- Also added a Speech software which converts the predicted text into audio.
 
 <div align = "center">
   <img src = "app_preview1.png">
