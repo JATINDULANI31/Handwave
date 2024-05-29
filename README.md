@@ -1,13 +1,24 @@
-<h1><b>Handwave</b></h1>
+<h1 align="center">HandWave<hr></h1>
 
-<h2><b>Overview</b></h2>
+## Overview
 This project aims to detect sign language gestures using the <b>MediaPipe</b> library and a trained <b>Random Forest (RF)</b> model. The detected signs are then converted into text for better accessibility.
+<br>
+
+<div align = "center">
+  <img src = "app_preview.png">
+<br>
+</div>
 
 ## Features
 - Real-time sign detection using webcam or video input.
 - Preprocessing of hand landmarks using MediaPipe.
 - Classification of hand gestures using the trained RF model.
 - Text output corresponding to the detected sign.
+
+<div align = "center">
+  <img src = "app_preview1.png">
+<br>
+</div>
 
 ## Requirements
 - Python 3.7+
@@ -20,6 +31,15 @@ This project aims to detect sign language gestures using the <b>MediaPipe</b> li
 ## Installation
 1. Clone this repository: <b>git clone https://github.com/JATINDULANI31/Handwave.git</b>
 2. Install the required packages: Using <b>requirements.txt</b> file.
+
+## Steps
+1. cd sign-detector
+2. pip install -r requirements.txt
+3. Write <b>"streamlit run main.py"</b> on the terminal. 
+   
+## Set up a virtual environment(Optional)
+1. python -m venv venv
+2. source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
 ## Usage
 1. Run the main script: Enter <b>streamlit run main.py</b> in your terminal. Make sure that you are in the desired path of the folder that is you are in the folder path.
@@ -34,11 +54,10 @@ This project aims to detect sign language gestures using the <b>MediaPipe</b> li
 1. Preprocess the hand landmarks (normalize, flatten, etc.).
 2. Train an RF classifier using scikit-learn.
 3. Save the trained model for inference.<br>
-(For references u can see the <b>sign_detection.ipynb</b> file in the Training Folder.)
+(For references u can prefer for the <b>sign_detection.ipynb</b> file in the Training Folder.)
 
 ## Acknowledgments
 - MediaPipe
 - Scikit-learn
 - OpenCV
 - Streamlit
-
