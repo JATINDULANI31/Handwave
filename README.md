@@ -62,3 +62,5 @@ This project aims to detect sign language gestures using the <b>MediaPipe</b> li
 - Scikit-learn
 - OpenCV
 - Streamlit
+
+Check out the <b>demo</b> video <a href = "https://youtu.be/UMMy5c49YFo?si=RhFwAM8Ea-rWi26j"><u>here.</u></a>
