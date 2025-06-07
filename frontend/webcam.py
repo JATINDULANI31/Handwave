@@ -192,13 +192,13 @@ if st.session_state['use_webcam']:
             # Debugging: Print counter or frame size
             # print(f"Counter: {counter}, Frame size: {len(frame_image)}")
 
-            counter += 1  # Increment counter
+            counter += 1 
 
-            # Stop running if 'Stop Webcam' is clicked
+           
             if not st.session_state['use_webcam']:
                 is_running = False
 
-            if cv2.waitKey(25) & 0xFF == 27:  # Press 'ESC' to exit
+            if cv2.waitKey(25) & 0xFF == 27:  
                 break
     cap.release()
     cv2.destroyAllWindows()
